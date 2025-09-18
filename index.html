@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+
+    <style>
+        header{
+            width: 90%;
+            height: 100px;
+            background-color: #1AD3F0;
+            border: 3px solid #364446;
+            padding: 10px;
+            margin: 25px;
+        }
+
+        nav{
+            position: fixed;
+            width: 90%;
+            height: 50px;
+            background-color: #37B2C5;
+            position: fixed;
+            top: 170px;
+            left: 35px;
+            z-index: 1;
+        }
+
+        article{
+            width: 65%;
+            height: 200px;
+            background-color: #446A70;
+            border: 5px solid #2C3233;
+            position: relative;
+            top: 15px;
+        }
+
+        aside{
+            width: 40%;
+            height: 420px;
+            background-color: #458F9B;
+            position: absolute;
+            left: 50%;
+            right: 10%;
+            top: 235px;
+        }
+
+        footer{
+            width: 100%;
+            height: 50px;
+            background-color: #446A70;
+            position: fixed;
+            bottom: 0px;
+            z-index: 1;
+        }
+
+        .articles{
+            position: relative;
+            left: 30px;
+            top: 45px;
+            width: 65%;
+            height: 70%;
+        }
+    </style>    
+</head>
+
+<body>
+    
+    <header></header>
+    <nav></nav>
+    <div>
+        <div class="articles">
+            <article></article>
+            <article></article>
+        </div>
+        <aside></aside>
+    </div>
+    <footer></footer>
+
+</body>
+</html>
